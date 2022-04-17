@@ -29,3 +29,9 @@ class Useful:
         # Set DPI Awareness  (Windows 7 and Vista)
         success = ctypes.windll.user32.SetProcessDPIAware()
         #################################################
+
+def string_to_list(string):
+    """Take a string as input and return a list of the
+    constituent contents.  Ex: 'ScaerieTale' returns
+    ['S', 'c', 'a', 'e', 'r', 'i', 'e', 'T', 'a', 'l', 'e'] ♥"""
+    return [letter for letter in string]

@@ -8,3 +8,6 @@ Change first and last name variables to be Title Case (first letter capitalized,
 Reverse the entered string, list, etc
 * dpi_off
 Disables DPI auto scaling on Windows 8/10/11 machines.  I have honestly no idea how DPI scaling on other OSes works, but on Windows it can *really* mess with an image/app.  FULL credit to
+* string_to_list
+Accept a string as input, spitting out the characters in list form.
+EX: 'ScaerieTale' returns ['S', 'c', a', e', r', 'i', 'e', 'T', 'a', 'l', 'e']
